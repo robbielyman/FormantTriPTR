@@ -1,0 +1,26 @@
+class:: FormantTriPTR
+summary:: PTR triangle wave oscillator with variable slope and formant
+related:: TODO
+categories:: UGens>TODO
+
+description::
+
+PTR triangle wave oscillator with variable slope and formant
+
+
+classmethods::
+
+method::ar, kr
+
+argument::TODO
+
+argument::TODO
+
+
+examples::
+
+code::
+
+{ FormantTriPTR.ar(/* TODO */) }.play
+
+::
