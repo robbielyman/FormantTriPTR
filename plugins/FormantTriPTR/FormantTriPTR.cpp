@@ -278,8 +278,8 @@ void FormantTriPTR::next_aaaka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -363,8 +363,8 @@ void FormantTriPTR::next_aaakk(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -448,8 +448,8 @@ void FormantTriPTR::next_aakka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -533,8 +533,8 @@ void FormantTriPTR::next_aakkk(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -618,8 +618,8 @@ void FormantTriPTR::next_akaka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -703,8 +703,8 @@ void FormantTriPTR::next_akakk(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -788,8 +788,8 @@ void FormantTriPTR::next_akkka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -873,8 +873,8 @@ void FormantTriPTR::next_akkkk(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -958,8 +958,8 @@ void FormantTriPTR::next_kaaka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -1043,8 +1043,8 @@ void FormantTriPTR::next_kaakk(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -1128,8 +1128,8 @@ void FormantTriPTR::next_kakka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -1213,8 +1213,8 @@ void FormantTriPTR::next_kakkk(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -1298,8 +1298,8 @@ void FormantTriPTR::next_kkaka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -1383,8 +1383,8 @@ void FormantTriPTR::next_kkakk(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos > turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
@@ -1468,8 +1468,8 @@ void FormantTriPTR::next_kkkka(int nSamples) {
             counter += ceil(ratio);
         }
         double turnaround = (1.f - offset) * 0.5 * w;
-        if (counter > turnaround && pos <= step) {
-            if (counter > ratio) {
+        if (counter + pos> turnaround && pos <= step) {
+            if (counter + pos > ratio) {
                 counter = 0;
                 offset = -1.f;
             }
