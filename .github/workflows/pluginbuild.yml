@@ -13,16 +13,19 @@ jobs:
         include:
 
           - name: macOS
-            os: macos-10.15
+            os: macos-latest
+          
+          - name: macOS-arm_64
+            os: macos-latest
 
           - name: Linux-x64
-            os: ubuntu-18.04
+            os: ubuntu-latest
 
           - name: Windows-x64
-            os: windows-2019
+            os: windows-latest
           
           - name: Windows-x86
-            os: windows-2019
+            os: windows-latest
 
     env:
       SC_PATH: ${{ github.workspace }}/supercollider
